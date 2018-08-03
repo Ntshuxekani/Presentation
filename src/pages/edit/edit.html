@@ -1,0 +1,57 @@
+<!--
+  Generated template for the EditPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Edit Information</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="bg-style" >
+  <ion-list>
+    <ion-item>
+    <ion-icon ios="ios-person-outline" item-left md="md-person"></ion-icon>
+    <ion-input placeholder="name" [(ngModel)]="name" type="text"   ></ion-input>
+   
+  </ion-item>
+
+  <ion-item>
+    <ion-icon ios="ios-pin" item-left md="md-pin"></ion-icon>
+    <ion-input placeholder="location" [(ngModel)]="location" type="text"   ></ion-input>
+  </ion-item>
+    
+  <ion-item>
+    <ion-icon ios="ios-contact" item-left md="md-contact"></ion-icon>
+    <ion-input placeholder="contact" [(ngModel)]="contact" type="text"   ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-icon ios="ios-mail" item-left md="md-mail"></ion-icon>
+    <ion-input placeholder="email" [(ngModel)]="email" type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-icon ios="logo-linkedin" item-left md="logo-linkedin"></ion-icon>
+    <ion-input placeholder="linkedIn" [(ngModel)]="linkedIn" type="text"></ion-input>
+  </ion-item>
+
+<ion-item>
+    <ion-icon ios="logo-facebook" item-left md="logo-facebook"></ion-icon>
+    <ion-input placeholder="facebook" [(ngModel)]="facebook" type="text"></ion-input>
+  </ion-item>
+
+<ion-item>
+    <ion-icon ios="logo-github" item-left md="logo-github"></ion-icon>
+    <ion-input placeholder="gitHubAcc" [(ngModel)]="gitHubAcc" type="text"></ion-input>
+  </ion-item>
+  <button ion-button color="dark" round  (click)="save()">Save</button>
+  
+
+  </ion-list>
+</ion-content>
